@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "CDAServices"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CDAServices."
+  s.summary          = "REST Services library"
   s.description      = <<-DESC
-                       An optional longer description of CDAServices
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Library to connect to RESTful services
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CDAServices"
+  s.homepage         = "https://github.com/Codedazur/services-ios"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "tamarabernad" => "tamara@codedazur.es" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CDAServices.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Codedazur/services-ios", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,5 +31,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.5'
+  s.dependency 'CDAUtils', '~> 0.1.1'
 end

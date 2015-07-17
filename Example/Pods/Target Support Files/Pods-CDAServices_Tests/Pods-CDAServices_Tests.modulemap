@@ -1,0 +1,6 @@
+framework module Pods_CDAServices_Tests {
+  umbrella header "Pods-CDAServices_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

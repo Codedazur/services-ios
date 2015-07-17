@@ -1,0 +1,6 @@
+framework module Pods_CDAServices_Example {
+  umbrella header "Pods-CDAServices_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

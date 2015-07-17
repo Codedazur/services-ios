@@ -1,0 +1,33 @@
+{
+  "name": "CDAServices",
+  "version": "0.1.0",
+  "summary": "REST Services library",
+  "description": "                       Library to connect to RESTful services\n",
+  "homepage": "https://github.com/Codedazur/services-ios",
+  "license": "MIT",
+  "authors": {
+    "tamarabernad": "tamara@codedazur.es"
+  },
+  "source": {
+    "git": "https://github.com/Codedazur/services-ios",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CDAServices": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.5"
+    ],
+    "CDAUtils": [
+      "~> 0.1.1"
+    ]
+  }
+}

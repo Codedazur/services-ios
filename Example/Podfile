@@ -1,8 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'git@bitbucket.org:codedazur/cda-ios-pods.git'
 use_frameworks!
 
 target 'CDAServices_Example', :exclusive => true do
   pod "CDAServices", :path => "../"
+  pod 'AFNetworking', '~> 2.5'
+  pod 'CDAUtils', '~> 0.1.1'
 end
 
 target 'CDAServices_Tests', :exclusive => true do
