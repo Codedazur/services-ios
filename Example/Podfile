@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CDAServices_Example', :exclusive => true do
+  pod "CDAServices", :path => "../"
+end
+
+target 'CDAServices_Tests', :exclusive => true do
+  pod "CDAServices", :path => "../"
+
+  pod 'Kiwi'
+end
